@@ -19,7 +19,7 @@ var manager = require('./routes/manager');
 expressValidator = require('express-validator');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://vishnu-vashishth:Vish98733@cluster0.x3jya.mongodb.net/HRM',{ useUnifiedTopology: true,useNewUrlParser:true });
+
 
 require('./config/passport.js');
 var app = express();
